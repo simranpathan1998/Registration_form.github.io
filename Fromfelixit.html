@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <ul style="list-style-type:Square;">
+        <li>  FELIX- IT REGISTRATION FORM </li>
+    </ul>
+    <form>
+        <fieldset>
+            <legend> Login From </legend>
+            <label for="uname"> Enter Username: </label>
+            <input type="text" id="uname" placeholder="abc" required>
+            <br><br>
+
+            <label for="email"> Enter Emailid: </label>
+            <input type="mail" id="email" placeholder="simran123@gmail.com"value="simran123@gmail.com"></input>
+            <br><br>
+
+            <label for="pwd"> Enter Password: </label>
+            <input type="Password" id="pwd" placeholder="1234" pattern="[A-Z][a-z]" required>
+            <br><br>
+
+            <label for="cnt"> Enter Contact Number: </label>
+            <input type="tel" id="cnt" minlength="10" maxlength="10" required>
+            <br><br>
+
+            <label for="gen"> Enter Gender: </label>
+            <input type="radio" name=gender id="gen"> Male
+            <input type="radio" name="gender" id="gen"> Female
+            <br><br>
+
+            <label for="city"> Select city </label>
+            <select id="city"  multiple>
+            <option value=""> Nashik </option>
+            <option value=""> pune </option>
+            <option value=""> Viman Nagar </option>
+            <option value=""> Mumbai </option>
+            <option value=""> Nagar </option>
+            </select>
+            <br><br>
+
+            <label for="city"> Select Class </label>
+            <select id="city"  multiple>
+            <option value=""> C,C++ </option>
+            <option value=""> java </option>
+            <option value=""> Android </option>
+            <option value=""> .Net </option>
+            <option value=""> python </option>
+            <option value=""> php </option>
+            <option value=""> Full Stack Devloper </option>
+            <option value=""> Front End Devloper </option>
+            </select>
+            <br><br>
+
+
+
+            <label for="term"> Terms </label>
+            <input type="checkbox" id="term"> I agree terms and conditions
+            <br><br>
+    
+
+            <input type="date" name="" id="">
+            <br> <br>
+            
+            <input type="button" value="next">
+            <br> <br>
+            <input type="submit" value="Submit">
+            <br> <br>
+
+        </fieldset>
+    </form>
+</body>
+</html>
